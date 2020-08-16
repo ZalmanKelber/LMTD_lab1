@@ -1,0 +1,9 @@
+#!/bin/bash
+#assignment: write a loop that iterates based on a user input variable
+
+echo Enter countdown starter:
+read num
+for ((i = num ; i >= 0 ; i--)); do
+echo $i
+done
+echo Blastoff!

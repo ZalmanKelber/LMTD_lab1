@@ -1,0 +1,14 @@
+#!/bin/bash
+#assignment: write a script that uses a function
+
+echo Enter circle radius:
+read -r radius
+echo Enter cylinder height:
+read -r height
+pi=3
+volume() {
+  vol=$(expr $radius \* $radius \* $pi \* $height)
+  echo Cylinder area rough estimate: $vol
+}
+
+volume

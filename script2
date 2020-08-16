@@ -1,0 +1,12 @@
+#!/bin/bash
+#assignment: use conditionals to perform some output based on user input variables
+
+echo Enter the year you were born using four digits:
+read birth_year
+current_year=2020
+age=`expr $current_year - $birth_year`
+if [ $age -lt 35 ]; then
+  echo You are not yet eligible to run for President
+else
+  echo You are eligible to run for the highest office
+fi

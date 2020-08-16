@@ -1,0 +1,6 @@
+#!/bin/bash
+#assignment: retrieve user input and display it back on the command line
+
+echo Enter your location:
+read location
+echo Greetings to you in $location from New York
